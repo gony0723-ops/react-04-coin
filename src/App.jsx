@@ -32,7 +32,9 @@ function App() {
             // 그걸 가지고 우리가 만든 state인 coins에 저장
         })
         // .catch((실패한 내용에 대한 분석값) => {})
-        .catch((error) => {})
+        .catch((error) => {
+            console.log(error);
+        })
   }, []);
 
   return (<>
